@@ -25,5 +25,19 @@ public class DatePickerSamples extends Activity {
                 startActivity(new Intent(DatePickerSamples.this, DialogSample.class));
             }
         });
+
+        findViewById(R.id.myBtnDialog).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(DatePickerSamples.this, MyDialogSample.class));
+            }
+        });
+
+        findViewById(R.id.myBtnLayout).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(DatePickerSamples.this, MyLayoutSample.class));
+            }
+        });
     }
 }

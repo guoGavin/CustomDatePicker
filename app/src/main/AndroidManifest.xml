@@ -5,8 +5,7 @@
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
-        android:label="@string/app_name"
-        android:theme="@style/SampleThemeMy" >
+        android:label="@string/app_name" >
         <activity
             android:name=".DatePickerSamples"
             android:label="@string/app_name" >
@@ -17,8 +16,14 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".DialogSample" />
-        <activity android:name=".LayoutSample" />
+        <activity android:name=".DialogSample"
+            android:theme="@style/SampleTheme"/>
+        <activity android:name=".LayoutSample"
+            android:theme="@style/SampleTheme"/>
+        <activity android:name=".MyDialogSample"
+            android:theme="@style/SampleThemeMy"/>
+        <activity android:name=".MyLayoutSample"
+            android:theme="@style/SampleThemeMy"/>
 
     </application>
 

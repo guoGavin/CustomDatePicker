@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="horizontal"
+    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center">
@@ -16,5 +16,17 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Dialog sample" />
+
+    <Button
+        android:id="@+id/myBtnDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Dialog sample" />
+
+    <Button
+        android:id="@+id/myBtnLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Layout sample" />
 </LinearLayout>
 

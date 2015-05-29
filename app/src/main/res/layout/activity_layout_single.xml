@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <Button
+        android:id="@+id/title"
+        android:layout_width="302dp"
+        android:layout_height="100dp"
+        android:background="@color/menu_item_bac"
+        android:text="请选择查询区间"
+        android:textColor="@color/menu_personal_data_color"
+        android:textSize="25sp"
+        android:layout_alignLeft="@+id/datePicker"
+        android:layout_alignRight="@+id/datePicker" />
+
+    <Button
+        android:id="@+id/begin_time"
+        android:layout_width="302dp"
+        android:layout_height="100dp"
+        android:background="@color/input_verify_code_gray"
+        android:text="开始时间"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:layout_alignLeft="@+id/datePicker"
+        android:layout_alignRight="@+id/datePicker" />
+
+    <com.test.gavinguo.library.DatePickerSignalSelection
+        android:id="@+id/datePicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/end_time"
+        android:layout_width="302dp"
+        android:layout_height="100dp"
+        android:background="@color/input_verify_code_gray"
+        android:text="结束时间"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:layout_alignLeft="@+id/datePicker"
+        android:layout_alignRight="@+id/datePicker" />
+
+    <com.test.gavinguo.library.DatePickerSignalSelection
+        android:id="@+id/datePicker2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>

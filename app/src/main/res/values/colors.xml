@@ -2,4 +2,14 @@
 <resources>
 
     <color name="transparent">#00000000</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="gray">#CDC9C9</color>
+    <color name="main_bac">#292526</color><!-- 主页面的背景色 -->
+    <color name="menu_item_bac">#353232</color><!-- 菜单的选中背景色 -->
+    <color name="menu_personal_data_color">#B3A69E</color><!-- 侧滑侧单中使用的字体颜色 -->
+    <color name="fragment_title_line">#94908F</color>
+    <color name="login_button_bac">#5D595A</color>
+    <color name="input_verify_code_gray">#B2A4A1</color>
+    <color name="my_cost_list_item_gray">#A6999A</color>
 </resources>

@@ -3,7 +3,7 @@
     <style name="SampleThemeMy" parent="@android:style/Theme">
         <item name="calendarViewStyle">@style/Widget.Holo.CalendarView</item>
         <item name="datePickerStyle">@style/Widget.Holo.DatePicker</item>
-        <item name="numberPickerStyle">@style/NPWidget.Holo.NumberPicker</item>
+        <item name="numberPickerStyle">@style/NPWidget.Holo.NumberPickerSignal</item>
     </style>
 
 
@@ -66,6 +66,16 @@
         <item name="internalMinWidth">64dip</item>
         <item name="internalMaxHeight">180dip</item>
         <item name="virtualButtonPressedDrawable">@drawable/item_background_holo_dark</item>
+    </style>
+
+    <style name="NPWidget.Holo.NumberPickerSignal" parent="NPWidget.NumberPicker">
+        <item name="solidColor">@android:color/transparent</item>
+        <item name="selectionDivider">@drawable/np_numberpicker_selection_divider</item>
+        <item name="selectionDividerHeight">0dip</item><!-- 调整 -->
+        <item name="internalLayout">@layout/number_picker_single_with_selector_wheel</item>
+        <item name="internalMinWidth">100dip</item>
+        <item name="internalMaxHeight">100dip</item><!-- 调整 -->
+        <item name="virtualButtonPressedDrawable">@drawable/item_background_holo_dark_single</item>
     </style>
 
     <style name="NPWidget.Holo.Light.NumberPicker" parent="NPWidget.Holo.NumberPicker">
